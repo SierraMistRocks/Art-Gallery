@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Canvas, useFrame, useLoader, useThree } from '@react-three/fiber';
-import { SpotLight, Text, ScrollControls, Scroll, Html } from '@react-three/drei';
+import { SpotLight, Text, ScrollControls, Scroll } from '@react-three/drei';
 import { EffectComposer, Vignette } from '@react-three/postprocessing';
 import { TextureLoader, Vector3 } from 'three';
 import data from './data.json';
@@ -77,8 +77,7 @@ const Scene = () => {
             font="https://fonts.gstatic.com/s/sacramento/v5/buEzpo6gcdjy0EiZMBUG4C0f-w.woff"
             castShadow
           >
-            Creativity is allowing yourself to make mistakes.
-          </Text>
+"Art is a form of love          </Text>
           <Text
             position-z={1}
             anchorX="center"
@@ -89,8 +88,7 @@ const Scene = () => {
             font="https://fonts.gstatic.com/s/sacramento/v5/buEzpo6gcdjy0EiZMBUG4C0f-w.woff"
             castShadow
           >
-            Art is knowing which ones to keep.
-          </Text>
+Art is a gift. Art heals life."           </Text>
           <Text
             position={[0, -0.5, 1.5]}
             anchorX="center"
@@ -98,7 +96,7 @@ const Scene = () => {
             font="https://fonts.gstatic.com/s/sacramento/v5/buEzpo6gcdjy0EiZMBUG4C0f-w.woff"
           // castShadow
           >
-            ~ Scott Adams
+            ~ Robert Gunn
           </Text>
 
           {ART_PIECES.map((art, i) => {
