@@ -1,52 +1,46 @@
 [
-    {
-      "title": "Beautiful Beast",
-      "imgPath": "/beauty_and_beast.jpeg"
-    },
+   
     {
       "title": "Stillness",
       "imgPath": "/soul-girl.jpg"
     },
     
     {
-      "title": "Rocks",
-      "imgPath": "/rocks.jpeg"
+      "title": "Foxy",
+      "imgPath": "/foxy.jpeg"
     },
-    {
-      "title": "Gentle Giant",
-      "imgPath": "/horse_sketch.jpeg"
-    },
+ 
     {
       "title": "Purity",
-      "imgPath": "/kindness.jpeg"
+      "imgPath": "/image2.jpeg"
     },
     {
       "title": "Lonely Together",
-      "imgPath": "/lonely_together.jpeg"
+      "imgPath": "/image3.jpeg"
     },
     {
       "title": "Owl",
-      "imgPath": "/owl.jpeg"
+      "imgPath": "/america1.jpeg"
     },
     {
       "title": "Menace",
-      "imgPath": "/panther.jpeg"
+      "imgPath": "/starry.jpeg"
     },
     {
       "title": "Paradise",
-      "imgPath": "/paradise.jpeg"
+      "imgPath": "/mother.jpeg"
     },
     {
       "title": "Friendship",
-      "imgPath": "/sprited_away.jpeg"
+      "imgPath": "/scream.jpeg"
     },
     {
       "title": "Wanderlust",
-      "imgPath": "/wonder.jpeg"
+      "imgPath": "/download.jpeg"
     },
     {
       "title": "Serenity",
-      "imgPath": "/forest.jpeg"
+      "imgPath": "/download2.jpeg"
     }
   ]
   
