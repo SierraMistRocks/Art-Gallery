@@ -1,7 +1,7 @@
 import { Canvas, useFrame, useLoader, useThree } from '@react-three/fiber'
-import React, { Suspense } from 'react'
+import React from 'react'
 import { SpotLight, Text, ScrollControls, Scroll, Html } from '@react-three/drei'
-import { EffectComposer, Noise, Vignette } from '@react-three/postprocessing'
+import { EffectComposer, Vignette } from '@react-three/postprocessing'
 import { TextureLoader, Vector3 } from 'three'
 
 const ART_PIECES = [
