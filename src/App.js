@@ -3,6 +3,7 @@ import React, { Suspense } from 'react'
 import { SpotLight, Text, ScrollControls, Scroll, Html } from '@react-three/drei'
 import { EffectComposer, Noise, Vignette } from '@react-three/postprocessing'
 import { TextureLoader, Vector3 } from 'three'
+import ('https://fonts.googleapis.com/css2?family=Freeman&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 const ART_PIECES = [
   {
@@ -10,8 +11,8 @@ const ART_PIECES = [
     imgPath: '/beauty_and_beast.jpeg',
   },
   {
-    title: 'Stillness',
-    imgPath: '/crane.jpeg',
+    title: 'Soul Girl',
+    imgPath: '/soul-girl.jpg',
   },
   {
     title: 'Foxy',
@@ -95,7 +96,7 @@ const WallArt = (props) => {
             color="black"
             anchorX="center"
             anchorY="middle"
-            font="https://fonts.gstatic.com/s/sacramento/v5/buEzpo6gcdjy0EiZMBUG4C0f-w.woff"
+            font='https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR7lXff2jvzRPA-w.woff'
           >
             {art.title}
           </Text>
