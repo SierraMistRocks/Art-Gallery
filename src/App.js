@@ -5,6 +5,7 @@ import { EffectComposer, Vignette } from '@react-three/postprocessing';
 import { TextureLoader, Vector3 } from 'three';
 import data from './data.json';
 
+
 const ART_PIECES = data;
 
 
@@ -13,7 +14,8 @@ const WallArt = (props) => {
   const { width: w, height: h } = useThree((state) => state.viewport);
   const gap = 4;
   const imageWidth = 3;
-  const texture = useLoader(TextureLoader, art.imgPath)
+  const texture = useLoader(TextureLoader, art.imgPath);
+
 
   return (
     <>
